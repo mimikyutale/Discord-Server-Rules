@@ -1,7 +1,7 @@
 var page = document.createElement('script');
-page.src = '/./src/page.js';
+page.src = '/Discord-Server-Rules/src/page.js';
 document.head.appendChild(page);
 
 var toc = document.createElement('script');
-toc.src = '/./src/toc.js';
+toc.src = '/Discord-Server-Rules/src/toc.js';
 document.head.appendChild(toc);

@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(50, 50, 50);
+    color: whitesmoke;
+  }
+  a {
+    color: rgb(59, 174, 59);
+  }
+  
+  p {
+    font-weight: bold;
+  }
+  #toc {
+    position: fixed;
+    top: 0;
+    right: -1150px;
+    width: 100%;
+    max-height: 80vh; /* 画面の高さの80%までに制限 */
+    overflow-y: auto; /* 高さを超えた場合はスクロールバーを表示する */
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: rgba(38, 38, 38, 0.466);
+    color: white;
+    border-radius: 25px;
+    z-index: 9999; /* 追加された行 */
+  }
+  #toc ul {
+    margin: 0;
+    padding: 0;
+    
+  }
+  #toc ul li {
+    margin: 0;
+    padding: 0;
+    
+  }
+  #toc a {
+    color: rgb(59, 174, 59);
+    text-decoration: none;
+    overflow: hidden; /* 隠れたテキストを非表示にする */
+    text-overflow: ellipsis; /* 隠れたテキストを省略符号で表示する */
+    word-wrap: break-word;
+  }
+  #toc a:hover {
+    text-decoration: underline;
+  }
+  
+  #htmc {
+    background-color: rgba(47, 79, 79, 0.315) !important;
+    position: fixed;
+    top: 0;
+    right: -850px;
+    width: 100%;
+    max-height: 80vh; /* 画面の高さの80%までに制限 */
+    overflow-y: auto; /* 高さを超えた場合はスクロールバーを表示する */
+    padding: 10px;
+    border-radius: 25px;
+  }
+  #htmc a {
+    font-size: larger;
+    color:greenyellow;
+    text-decoration: darkgreen underline;
+  }
+  #htmc li {
+    list-style-type: lower-greek;
+  }

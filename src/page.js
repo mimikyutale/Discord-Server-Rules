@@ -7,7 +7,7 @@ document.getElementById("htmc").appendChild(h1);
 
 const names = [
   "main",
-  "v1",
+  "v1"
   //"v2",
 ];
 

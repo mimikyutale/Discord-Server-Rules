@@ -6,9 +6,10 @@ h1.textContent = "Pages";
 document.getElementById("htmc").appendChild(h1);
 
 const names = [
-                "v1",
-                //"v2",
-            ];
+  "main",
+  "v1",
+  //"v2",
+];
 
 names.forEach(name => {
   const li = document.createElement("li");
